@@ -1,31 +1,82 @@
-h1 {
-    text-align: center;
-}
+/*.center {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
 
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-}
+/*.column {*/
+/*    flex-direction: column;*/
+/*}*/
 
-.center:hover {
-    cursor: pointer;
-    user-select: none;
-}
+/*.full-height {*/
+/*    height: calc(100vh - 60px);*/
+/*}*/
 
-.quote-box {
-    width: 75%;
-}
+/*.half-width {*/
+/*    width: 50%;*/
+/*}*/
 
-.quote-box p {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 1.5;
+/*.grid-container {*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr;*/
+/*}*/
 
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+/*.menu-bar {*/
+/*    line-height: 30px;*/
+/*    background-color: #161616;*/
+/*    cursor: default;*/
+/*}*/
+
+/*.menu-bar ul {*/
+/*    list-style-type: none;*/
+/*    padding: 10px;*/
+/*}*/
+
+/*.menu-bar ul li {*/
+/*    display: inline;*/
+/*    margin-left: 1em;*/
+/*    margin-right: 1em;*/
+/*}*/
+
+/*#menubartitle {*/
+/*    font-size: 1.5em;*/
+/*    text-decoration: none;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.cryptocap-box {*/
+/*    text-align: justify;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+/*.cryptocap-box table {*/
+/*    margin: 0 auto;*/
+/*    border-collapse: collapse;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.cryptocap-box td {*/
+/*    padding: 2px*/
+/*}*/
+
+
+/*.quote-box p {*/
+/*    text-align: center;*/
+/*    font-size: 2rem;*/
+/*    font-weight: 400;*/
+/*    line-height: 1.5;*/
+
+/*    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);*/
+/*    -webkit-background-clip: text;*/
+/*    -webkit-text-fill-color: transparent;*/
+/*}*/
+
+/*.quote-box:hover {*/
+/*    cursor: pointer;*/
+/*    user-select: none;*/
+/*}*/
+
+/*.lang-select {*/
+/*    user-select: none;*/
+/*    cursor: pointer;*/
+/*}*/
