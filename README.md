@@ -1,4 +1,4 @@
-A website that shows quotes and the top 10 cryptocurrencies with the highest market cap using the coincap-API.
+A website that shows random quotes from a db the top 10 cryptocurrencies with the highest market cap using the coincap-API.
 
 We use Spring Boot for the back end, Vite + React Ts for the front end and a sqlite db to store data.
 
