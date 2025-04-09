@@ -14,7 +14,7 @@ public class QuoteService {
 
     public Quote getRandomQuote() {
         int minId = 1;
-        int maxId = Math.toIntExact(quoteRepository.count());
+        int maxId = (int) quoteRepository.count();
 
         Integer randId = (int) (Math.random() * (maxId - minId + 1) + minId);
 
